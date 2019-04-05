@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+#page /*define a biggest frame*/
+{
+	position:absolute;
+	height:100%;
+	width:100%;
+	background-size:cover; 
+	background-color:gray;
+}
+
+#page-top
+{
+	 height:8%;
+	 width:100%;
+	 padding:5px;
+ 	 background-size:cover;--> 
+	 background-color:#3eb06f;
+     font-weigt:bold;
+	 text-align:center;
+     line-height:50px; /*let the text is in the center of top and bottom*/
+     letter-spacing:2px;/*word space*/
+	 font-size:xx-large;
+	 font-family:sans-serif;
+	 color:white;
+}
+#page-centre
+{
+	 height:84%;
+	 width:100%;
+ 	 background-size:cover; 
+	 background-color:#87CEEB;
+}
+#page-centre-left
+{
+	 height:100%;
+	 width:50%;
+ 	 float:left; /*frame is on the left*/
+	 background-color:silver;
+}
+#page-centre-right
+{
+	 height:100%;
+	 width:50%;
+ 	 float:right; /*frame is on the right*/
+	 background-color:lime;
+}
+#page-bottom
+{
+	 height:8%;
+	 width:100%;
+ 	 background-size:cover;--> 
+	 background-color:#C0C0C0;
+	 text-align:center;
+	 line-height:50px; 
+	 color:green;
+}
+image
+{
+	positon:relative;
+	margin-top:30px;/*not at the edge*/
+	margin-left:20px;
+	width:280px; 
+	height:280px; 
+	border-radius:140px; /*make the shape is circle*/
+
+}
+#information1 /*introduction words*/
+{
+	position:relative; 
+	margin-top:-280px; /*make it paralleled to image*/
+	margin-left:340px;	
+}
+ul.left /*is in the information1*/
+{
+	font-family:"Times New Roman";
+	font-size:larger;
+	text-align:left;
+	line-height:30px;
+}
+ul.right /*content of applied skill*/
+{
+	margin-top:-10px;
+	margin-left:70px;
+	font-family:"Times New Roman";
+	font-size:larger;
+	text-align:left;
+	line-height:30px; 
+}
+p.center-right /*applied skill*/
+{
+	margin-top:50px;
+	margin-left:50px;
+	font-family:"Times New Roman";
+	font-size:x-large;
+	text-align:left;
+	line-height:30px;
+	letter-spacing:3px;
+}
+p.motto  /*motto*/
+{
+	margin-top:20px;
+	margin-left:50px;
+	font-family:"Times New Roman";
+	font-size:x-large;
+	text-align:left;
+	line-height:30px;
+	letter-spacing:2px;
+}
+font /*content of motto*/
+{
+	margin-left:70px;
+	font-family:"Times New Roman";
+	font-size:larger;
+	text-align:left;
+	line-height:30px;
+}
+
